@@ -1,0 +1,162 @@
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-color: RGB(146, 168, 209);
+                }
+                
+                #containeroutside {
+                    border: 1px solid black;
+                    height: 800px;
+                    width: 800px;
+                    background-color: white;
+                    margin: 200px;
+                    display: flex;
+                    border-radius: 6px;
+                }
+                
+                #lane1 {
+                    border-right: 1px solid black;
+                    width: 40%;
+                    background-color: teal;
+                }
+                
+                #imagecontainer {
+                    border-bottom: 1px solid teal;
+                    height: 200px;
+                    background-image: url('Ajay.jpg.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    border-radius: 300px;
+                }
+                
+                hr {
+                    margin-top: 20px;
+                    color: aliceblue;
+                }
+                
+                p {
+                    text-align: right;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+                }
+                
+                table {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    color: black;
+                    margin-left: 32px;
+                    letter-spacing: 1px;
+                }
+                
+                th {
+                    border: 1px solid black;
+                    color: black;
+                    font-family: cursive;
+                    letter-spacing: 1px;
+                    /* border-collapse: collapse; */
+                }
+                
+                td {
+                    border: 1px solid black;
+                    text-align: center;
+                    /* border-collapse: collapse; */
+                }
+                
+                #section {
+                    list-style: disc;
+                    padding-left: 0px;
+                    font-family: cursive;
+                    letter-spacing: 1px;
+                }
+                
+                .roleid {
+                    text-align: left;
+                    font-weight: bold;
+                }
+                
+                .roledefined {
+                    list-style-type: none;
+                    text-align: left;
+                    letter-spacing: 1px;
+                }
+                
+                .contactme {
+                    margin-top: 10px;
+                }
+                
+                .contactlist {
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                /* put the hover effect  */
+                
+                .contactlist:link {
+                    color: goldenrod;
+                }
+                
+                .contactlist:visited {
+                    color: yellow;
+                }
+                
+                .contactlist:hover {
+                    color: red;
+                }
+                
+                .contactlist:active {
+                    color: blue;
+                }
+                
+                .contact {
+                    margin-top: 10px;
+                    text-decoration: none;
+                }
+                
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: black;
+                    letter-spacing: 1px;
+                }
+                
+                a:hover {
+                    border: 0.4px solid rgb(101, 101, 231);
+                    cursor: pointer;
+                    text-decoration: none;
+                    color: blue;
+                }
+                
+                .fa-brands,
+                .fa-solid {
+                    cursor: pointer;
+                }
+                /* The end of half section  */
+                /* start with second half */
+                
+                #secondlandcontainer {
+                    display: flex;
+                    width: 100%;
+                }
+                
+                #lane2 {
+                    background-color: white;
+                    width: 60%;
+                    margin: 0px;
+                }
+                
+                #namesection {
+                    border: 1px solid white;
+                    height: 60px;
+                    width: 90%;
+                    border-radius: 0px 20px 20px 0px;
+                    background-color: yellow;
+                    text-align: center;
+                    padding-top: 30px;
+                    font-size: large;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+                
+                #sectionlist {
+                    margin-top: 5px;
+                }
