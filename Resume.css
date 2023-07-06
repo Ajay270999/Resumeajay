@@ -22,12 +22,12 @@
                 
                 #imagecontainer {
                     border-bottom: 1px solid teal;
-                    height: 200px;
+                    height: 250px;
                     background-image: url('Ajay.jpg.jpg');
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: contain;
-                    border-radius: 300px;
+                    border-radius: 100%;
                 }
                 
                 hr {
@@ -139,7 +139,7 @@
                 }
                 
                 #lane2 {
-                    background-color: white;
+                    background-color: whitesmoke;
                     width: 60%;
                     margin: 0px;
                 }
@@ -159,4 +159,12 @@
                 
                 #sectionlist {
                     margin-top: 5px;
+                }
+                
+                .jobdl {
+                    font-weight: cursive;
+                    font-size: large;
+                    margin-top: 10px;
+                    letter-spacing: 1px;
+                    text-align: left;
                 }
